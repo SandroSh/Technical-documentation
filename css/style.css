@@ -1,0 +1,161 @@
+.container{
+    max-width: 1343px;
+    position: relative;
+   
+}
+
+.container div{
+    margin: 100px 0;
+}
+.container .titles-header {
+        margin:0;
+}
+.container .code-examples {
+    margin-top:17px;
+}
+hr{
+    width: 90%;
+    border-radius: 5px;}
+
+.code-examples{
+    
+    width:97%;
+    padding:25px;
+    background-color:rgba(95, 105, 114, 0.9);
+    border-radius: 10px;
+}
+.code-example-p{
+    color:white;
+    font-family: sans-serif;
+}
+/*titles box//////////////////////////////////////////////////////////////////*/
+
+/*titles-header*/
+.titles-header{
+    text-align: center;
+    
+    background-color: lightslategrey;
+    position: fixed;
+    
+    
+    width:450px;
+    
+  padding: 50px 34px;
+}
+
+.titles-h1{
+    
+    
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    color:white;
+    
+}
+
+
+
+/*titles*/
+#titles-box{
+    
+    position: fixed;
+    padding:17px;
+    width:450px;
+    height:545px;
+    
+
+    overflow-y:scroll;
+    background-color:lightslategrey;
+   
+    
+}
+.titles{
+
+    color:white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 25px;
+    font-size: 1.3rem;
+    margin:14px 0;
+}
+/*Paragraphs /////////////////////////////////////////////////////////////////////////////*/
+.paragraphs-box{
+    position: absolute;
+    left:480px;
+    width:599px;
+    top:0px;
+    padding:0 50px 50px 50px;
+  
+}
+
+
+.p-h1{
+   
+    color:lightslategrey;
+    font-family: initial;
+    font-size: 43px;
+    margin-bottom:10px;
+    
+}
+
+.info-p{
+    color:lightslategrey;
+    font-weight: 500;
+    line-height: 17px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.list{
+    
+    margin-top:17px;
+    margin-left: 25px;
+    list-style-type: circle;
+    color:lightslategrey;
+
+}
+/*Introduction*/
+#introduction{
+    margin-top: 0;
+    margin-bottom: 25px;
+
+}
+
+@media (max-width:950px){
+       
+        .container .titles-header{
+            
+            margin: 25px auto 0 auto ;
+        }
+        .container .paragraphs-box{
+            
+            margin: 25px auto 0 auto ;
+        }
+        .titles-header{ 
+           
+            position:inherit;
+            width:300px;
+            
+           
+        }
+        #titles-box{
+            position:static;
+            width:300px;
+            height:300px;
+            margin:0 auto;
+        }
+        .paragraphs-box{
+            
+            width:355px;
+            position: static;
+            text-align: center;
+            
+           
+        }
+        
+        .code-example-p{
+            font-size:0.7rem;
+        }
+
+       
+
+}
